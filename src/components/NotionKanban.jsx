@@ -16,8 +16,8 @@ export const NotionKanban = () => {
 };
 
 const Board = () => {
-  // const [cards, setCards] = useState(DEFAULT_CARDS);
-  const [cards, setCards] = useState([]);
+  const [cards, setCards] = useState(DEFAULT_CARDS);
+  // const [cards, setCards] = useState([]);
   const [hasChecked,setHasChecked] = useState(false);
 
 
