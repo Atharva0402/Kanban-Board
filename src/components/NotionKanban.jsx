@@ -188,7 +188,7 @@ const handleDragOver =(e) =>{
       >
 
         {filteredCards.map((c)=>{
-          return <Card kay={c.id} {...c}
+          return <Card key={c.id} {...c}
           handleDragStart={handleDragStart}
           />;
         })}
